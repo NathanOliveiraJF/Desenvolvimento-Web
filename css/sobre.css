@@ -33,6 +33,22 @@ p {
     text-indent: 15px;
 }
 
+p::first-letter {
+    font-weight: bold;
+}
+
+p::first-line {
+    font-variant: small-caps;
+}
+
+:not(p) + p::first-line {
+    font-variant: small-caps;
+}
+
+h1 + p {
+    text-indent: 0;
+}
+
 figure {
     padding: 15px;
     margin: 30px;
