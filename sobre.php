@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/estilos.css">
-
-    <title>Sobre a Mirror Fashion</title>
-</head>
-
-<body>
+<?php 
+    $cabecalho_title = "sobre";
+    $cabecalho_css = '<link rel="stylesheet" href="css/sobre.css">';
+    include("cabecalho.php"); 
+?>
     <h1>A Mirror Fashion</h1>
-    
+
     <p>
         A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo.
         Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de
@@ -33,8 +23,12 @@
         <figcaption>Centro de distribuição da Mirror Fashion</figcaption>
     </figure>
 
+    <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="http://maps.google.com.br/maps?q=Jacarezinho&amp;output=embed">
+    </iframe><style>iframe{display: block; margin: 0 auto; width: 62%;}</style>
+
     <p>
-        Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.html">nossa loja</a> ou entre em
+        Compre suas roupas e acessórios na Mirror Fashion. Acesse <a href="index.php">nossa loja</a> ou entre em
         contato
         se tiver dúvidas. Conheça também nossa <a href="#historia">história</a> e nossos <a
             href="#diferenciais">diferenciais</a>.
@@ -94,6 +88,8 @@
 
         &copy; Copyright Mirror Fashion
     </div>
+
+    <?php include("rodape.php"); ?>
 </body>
 
 </html>

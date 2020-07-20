@@ -7,7 +7,7 @@ body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-h1 {
+h1:nth-child(2n) {
     background-image: url("../img/sobre-background.jpg");
     padding: 10px;
 }
